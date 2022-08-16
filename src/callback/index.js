@@ -11,3 +11,9 @@ console.log(calc(2, 2, suma));
 setTimeout(function() {
     console.log("Hola Javascript");
 }, 2000);
+
+function saludo(name) {
+    console.log("Hola" + " " + name);
+}
+
+setTimeout(saludo, 2000, 'Exequiel')
