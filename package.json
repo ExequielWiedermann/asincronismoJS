@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ExequielWiedermann/asincronismoJS/issues"
   },
-  "homepage": "https://github.com/ExequielWiedermann/asincronismoJS#readme"
+  "homepage": "https://github.com/ExequielWiedermann/asincronismoJS#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
