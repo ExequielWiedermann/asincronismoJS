@@ -1,5 +1,5 @@
-const XMLHttpRequest = requiere('xmlhttprequest');
-const API = 'https://api.escuelajs.co/api/v1';
+const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
+const API = 'https://api.escuelajs.co/api/v1/products';
 
 //Paso los datos para consumir la información de la API
 function fetchData(urlApi, callback) {
