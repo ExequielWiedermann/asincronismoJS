@@ -5,11 +5,12 @@ function fetchData(urlApi) {
     return fetch(urlApi);
 };
 
-fetchData(`${API}` / products)
+fetchData(`${API}/products`)
     .then(response => response.json)
     .then(products => {
         console.log(products);
     })
     .then(() => {
-        console.log('Hola');
-    });
+        console.log('Hola')
+    })
+    .catch(error => console.log(error));
