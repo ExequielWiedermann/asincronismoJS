@@ -21,5 +21,5 @@ const contarVacas = new Promise(
 contarVacas.then((result) => {
     console.log(promise);
 }).catch((erro) => {
-    console.log(error);
+    console.log(erro);
 }).finally
