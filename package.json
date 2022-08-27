@@ -1,25 +1,26 @@
 {
-  "name": "asincronismo-con-javascript",
-  "version": "1.0.0",
-  "description": "Asincronismo con JS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ExequielWiedermann/asincronismoJS.git"
-  },
-  "keywords": [
-    "javascript"
-  ],
-  "author": "Exequiel Wiedermann <ewiedermann@init-dev.com.ar>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ExequielWiedermann/asincronismoJS/issues"
-  },
-  "homepage": "https://github.com/ExequielWiedermann/asincronismoJS#readme",
-  "dependencies": {
-    "xmlhttprequest": "^1.8.0"
-  }
+    "name": "asincronismo-con-javascript",
+    "version": "1.0.0",
+    "description": "Asincronismo con JS",
+    "main": "index.js",
+    "scripts": {
+        "test": "node src/callback/challenge.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ExequielWiedermann/asincronismoJS.git"
+    },
+    "keywords": [
+        "javascript"
+    ],
+    "author": "Exequiel Wiedermann <ewiedermann@init-dev.com.ar>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ExequielWiedermann/asincronismoJS/issues"
+    },
+    "homepage": "https://github.com/ExequielWiedermann/asincronismoJS#readme",
+    "dependencies": {
+        "formidable": "^2.0.1",
+        "xmlhttprequest": "^1.8.0"
+    }
 }
