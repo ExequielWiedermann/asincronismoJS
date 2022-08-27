@@ -21,6 +21,7 @@
     "homepage": "https://github.com/ExequielWiedermann/asincronismoJS#readme",
     "dependencies": {
         "formidable": "^2.0.1",
+        "node-fetch": "^3.2.10",
         "xmlhttprequest": "^1.8.0"
     }
 }
