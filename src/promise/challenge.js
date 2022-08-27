@@ -31,4 +31,4 @@ fetchData(`${API}/products`)
         console.log(category.name);
     })
     .catch(err => console.log(err))
-    .finally(() => console.log('Final'))
+    .finally(() => console.log('Final'));
