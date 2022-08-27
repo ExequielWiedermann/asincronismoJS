@@ -18,9 +18,13 @@ function postData(urlApi, data) {
 
 //promesa para enviar la información
 const data = {
-    "title": "New Product",
-    "price": 10,
-    "description": "A description",
+    "title": "Nuevo producto para Exequiel",
+    "price": 9999,
+    "description": "Exequiel Wiedermann guardando en la api",
     "categoryId": 1,
     "images": ["https://placeimg.com/640/480/any"]
 }
+
+postData(`${API}/products`, data)
+    .then(response => console.log(response.json()))
+    .then(data => console.log(data));
