@@ -5,6 +5,8 @@ const fnAsync = () => {
     });
 }
 
+//Esto sucede a los dos segundos
+//Primero ejecuta el antes y el después
 const anotherFn = async() => {
     const somethig = await fnAsync();
     console.log(somethig);
